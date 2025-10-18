@@ -18,16 +18,17 @@ Inclui operações de:
 
 ## Estrutura do projeto
 
-tads-estruturas/
-├── src/
-│   ├── Main.cpp
-│   ├── Sequence.cpp / Sequence.h
-│   ├── Set.cpp / Set.h
-│   └── Node.h
-│
-└── tests/
-    ├── TestSequence.cpp
-    └── TestSet.cpp
+* tads-estruturas/
+    * src/
+        * Main.cpp
+        * Sequence.cpp
+        * Sequence.h
+        * Set.cpp
+        * Set.h
+        * Node.h
+    * tests/
+        * TestSequence.cpp
+        * TestSet.cpp
 
 
 
