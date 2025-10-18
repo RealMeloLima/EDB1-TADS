@@ -1,3 +1,7 @@
+#include <cassert>
+#include <iostream>
+#include "Set.h"
+
 int runSetTests() {
     Set A, B;
     assert(A.isEmpty());

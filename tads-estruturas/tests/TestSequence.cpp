@@ -142,12 +142,14 @@ void testRemove() {
     sequence->insertEnd("c");
     sequence->insertEnd("d");
 
+    // remove meio
     std::string r1 = sequence->remove(2);
     assert(r1 == "b");
     assert(sequence->get(1) == "a");
     assert(sequence->get(2) == "c");
     assert(sequence->get(3) == "d");
 
+    // remove início
     std::string r2 = sequence->remove(1);
     assert(r2 == "a");
     assert(sequence->get(1) == "c");
@@ -170,6 +172,6 @@ int runSequenceTests() {
     testInsert();
     testRemove();
 
-    std::cout << "TestAll OK" << std::endl;
+    cout << "TestAll OK" << endl;
     return 0;
 }

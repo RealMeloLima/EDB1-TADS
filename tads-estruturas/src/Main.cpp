@@ -1,8 +1,5 @@
 #include <iostream>
 
-int runSequenceTests();
-int runSetTests();
-
 #include "../tests/TestSequence.cpp"
 #include "../tests/TestSet.cpp"
 
