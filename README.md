@@ -20,14 +20,14 @@ Inclui operações de:
 
 tads-estruturas/
 ├── src/
-│   ├── Main.cpp
-│   ├── Sequence.cpp / Sequence.h
-│   ├── Set.cpp / Set.h
-│   ├── Node.h
+│   ├── Main.cpp
+│   ├── Sequence.cpp / Sequence.h
+│   ├── Set.cpp / Set.h
+│   └── Node.h
 │
-├── tests/
-│   ├── TestSequence.cpp
-│   └── TestSet.cpp
+└── tests/
+    ├── TestSequence.cpp
+    └── TestSet.cpp
 
 
 
@@ -46,5 +46,3 @@ Depois rode o programa
 ```bash
 ./bin_all_tests
 ```
-Depois rode o programa
-./bin_all_tests
